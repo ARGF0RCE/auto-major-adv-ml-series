@@ -1,8 +1,8 @@
-# VW Series: Advanced Machine Learning for Automotive Analytics
+# Auto Major Series: Advanced Machine Learning for Automotive Analytics
 
 > **A Comprehensive Course Series on Applied Machine Learning in the Automotive Industry**
 
-Welcome to the VW Series - an intensive, hands-on course designed to teach advanced machine learning techniques through real-world automotive applications. This course combines theoretical foundations with practical implementation, covering the complete spectrum from advanced algorithms to production deployment, led by industry experts.
+Welcome to the Auto Major Series - an intensive, hands-on course designed to teach advanced machine learning techniques through real-world automotive applications. This course combines theoretical foundations with practical implementation, covering the complete spectrum from advanced algorithms to production deployment, led by industry experts.
 
 ## 👥 Course Leadership
 
@@ -73,7 +73,7 @@ By the end of this comprehensive course, participants will master:
 
 ### Project Overview
 
-The course begins with a comprehensive warranty cost prediction project for Volkswagen vehicles in the Indian market, establishing the practical foundation for all advanced techniques covered throughout the series.
+The course begins with a comprehensive warranty cost prediction project for Auto Major vehicles in the Indian market, establishing the practical foundation for all advanced techniques covered throughout the series.
 
 ### 📊 Dataset Characteristics
 
@@ -161,13 +161,13 @@ warranty_cost_repair_prediction/
 1. **Clone and Setup**:
    ```bash
    git clone <repository-url>
-   cd vw_series_satya
+   cd auto_major_series_satya
    uv sync
    ```
 
 2. **Generate Data**:
    ```bash
-   python warranty_cost_repair_prediction/data/complete_vw_generator.py
+   python warranty_cost_repair_prediction/data/complete_auto_major_generator.py
    ```
 
 3. **Run Analysis**:
