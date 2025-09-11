@@ -161,16 +161,11 @@ warranty_cost_repair_prediction/
 1. **Clone and Setup**:
    ```bash
    git clone <repository-url>
-   cd auto_major_series_satya
+   cd auto-major-adv-ml-series
    uv sync
    ```
 
-2. **Generate Data**:
-   ```bash
-   python warranty_cost_repair_prediction/data/complete_auto_major_generator.py
-   ```
-
-3. **Run Analysis**:
+2. **Run Analysis**:
    ```bash
    jupyter notebook
    # Navigate to notebooks/ and start with EDA notebook
