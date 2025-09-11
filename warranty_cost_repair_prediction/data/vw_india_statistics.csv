@@ -1,0 +1,17 @@
+metric,value
+Total Samples,"25,000"
+Total Features,36
+Memory Usage (MB),29.63
+Mean Repair Cost (INR),"₹57,819"
+Median Repair Cost (INR),"₹23,636"
+Std Dev Repair Cost (INR),"₹90,476"
+Min Repair Cost (INR),₹0
+Max Repair Cost (INR),"₹892,907"
+Vehicles with No Claims (%),8.0%
+Vehicles with Claims (%),92.0%
+High Cost Claims >₹75K (%),22.8%
+Temperature Extremes Score,6.2 ± 1.7
+Dust Exposure Level,4.8 ± 2.7
+Traffic Density Score,6.1 ± 2.4
+Service Center Accessibility,6.9 ± 1.9
+Monsoon Months/Year,2.8 ± 1.2

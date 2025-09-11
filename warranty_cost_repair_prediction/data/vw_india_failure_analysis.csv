@@ -1,0 +1,7 @@
+component,failure_probability,india_factors,business_impact
+Engine,12.9%,"Dust, fuel quality, pollution",High - Engine protection programs
+Transmission,8.1%,"Traffic density, road conditions",Medium - Traffic-based maintenance
+Electrical,20.0%,"Monsoon, power fluctuations",High - Monsoon preparation critical
+Suspension,11.7%,"Road surface, potholes",High - Road-condition adaptations
+Brake,21.0%,"Traffic, dust, monsoons",High - Urban service planning
+AC System,39.1%,"Temperature, dust, high usage",Critical - AC maintenance programs

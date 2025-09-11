@@ -1,0 +1,37 @@
+column_name,data_type,units,description,actual_distribution,feature_importance,india_specific
+vehicle_id,object,text,Unique anonymized vehicle identifier,VEH_000001 to VEH_025000,Low,No
+make_model_code,object,category,VW vehicle model for Indian market,"Sedan(30.1%), Compact(24.8%), SUV(19.9%), Hatch(15.0%), Electric(10.1%)",High,No
+manufacturing_year,int64,year,Manufacturing year (2018-2024),2018-2024,Medium,No
+engine_type,object,category,Engine type including CNG for India,"Petrol(52.4%), Diesel(29.7%), Electric(10.1%), CNG(6.0%), Hybrid(1.8%)",High,Yes-CNG
+transmission_type,object,category,Transmission including AMT popular in India,"Manual(38.4%), Auto(33.3%), AMT(23.3%), CVT(5.1%)",Medium,Yes-AMT
+manufacturing_batch,object,text,Anonymized manufacturing batch ID,BATCH_YYYY_MODEL_MM format,Low,No
+warranty_duration_months,int64,months,Warranty duration in months,"24, 36, 48, 60",Medium,No
+warranty_mileage_limit,int64,kilometers,Maximum warranty mileage coverage,"50K, 75K, 100K, 150K",Medium,No
+vehicle_age_at_claim,float64,years,Vehicle age when claim filed,0.0 to 5.0 years,High,No
+annual_mileage,int64,km/year,Annual kilometers driven,5K to 35K km/year,High,No
+mileage_at_claim,int64,kilometers,Total kilometers at claim time,0 to 175K km,High,No
+driving_style_score,float64,score_1-10,"Driving behavior: 1=harsh, 10=gentle",1.0 to 10.0,High,No
+terrain_type,object,category,Primary driving terrain type,"Urban(49.5%), Highway(25.8%), Mixed(16.9%), Off-road(7.7%)",High,No
+service_frequency_score,float64,score_1-10,"Maintenance frequency: 1=poor, 10=excellent",1.0 to 10.0,High,No
+climate_zone,object,category,Climate zone classification,"Temperate(19.8%), Tropical(19.5%), Arid(20.2%), Continental(20.3%), Coastal(20.1%)",Medium,No
+road_quality_index,float64,score_1-10,"Road quality: 1=poor, 10=excellent",1.0 to 10.0,High,No
+region_code,object,category,Anonymized region identifier,Region_001 to Region_020,Low,No
+indian_region,object,category,Indian geographical region,"North(25.3%), South(20.1%), West(19.9%), East(14.6%), Central(15.1%), Northeast(5.0%)",High,Yes
+road_surface_type,object,category,Road surface type affecting stress,"Paved_Highway(37.8%), Paved_City(30.1%), Semi_Paved(20.1%), Gravel(9.1%), Dirt_Track(3.0%)",High,Yes
+monsoon_exposure,object,category,Monsoon rainfall exposure level,"Medium(37.0%), High(31.0%), Low(25.0%), Minimal(6.9%)",High,Yes
+monsoon_months_per_year,float64,months,Duration of heavy monsoon per year,0.0 to 6.0 months,Medium,Yes
+air_pollution_level,object,category,Air pollution severity level,"Severe(44.8%), High(31.5%), Moderate(18.5%), Low(5.1%)",High,Yes
+fuel_quality,object,category,Fuel quality grade available,"Standard(58.2%), Premium(32.3%), Below_Standard(9.5%)",High,Yes
+temperature_extreme_score,float64,score_1-10,"Temperature extremes: 1=mild, 10=extreme",Mean: 6.2 ± 1.7,Medium,Yes
+dust_exposure_level,float64,score_1-10,"Dust exposure: 1=minimal, 10=severe",Mean: 4.8 ± 2.7,High,Yes
+traffic_density_score,float64,score_1-10,"Traffic density: 1=light, 10=heavy",Mean: 6.1 ± 2.4,High,Yes
+service_center_accessibility,float64,score_1-10,"Service center accessibility: 1=poor, 10=excellent",Mean: 6.9 ± 1.9,Medium,Yes
+engine_failure_risk,float64,probability,Engine failure probability (0-1),Mean: 12.9%,High,Enhanced
+transmission_failure_risk,float64,probability,Transmission failure probability (0-1),Mean: 8.1%,High,Enhanced
+electrical_failure_risk,float64,probability,Electrical failure probability (0-1),Mean: 20.0%,High,Enhanced
+suspension_failure_risk,float64,probability,Suspension failure probability (0-1),Mean: 11.7%,High,Enhanced
+brake_failure_risk,float64,probability,Brake failure probability (0-1),Mean: 21.0%,High,Enhanced
+ac_system_failure_risk,float64,probability,AC system failure probability (0-1),Mean: 39.1%,High,Yes-Critical
+total_repair_cost,int64,INR,Total warranty repair cost in INR,"₹0 to ₹892,907 (Mean: ₹57,819)",Target,Enhanced
+number_of_claims,int64,count,Number of warranty claims,0 to 6 claims,Target,Enhanced
+high_cost_claim_flag,int64,binary_0-1,High cost flag: 1 if cost > ₹75K,"0(77.2%), 1(22.8%)",Target,Enhanced
