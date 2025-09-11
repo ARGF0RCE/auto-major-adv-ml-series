@@ -234,7 +234,6 @@ This comprehensive course is designed for:
 - Familiarity with deep learning concepts (for NLP and computer vision modules)
 
 ### Support and Resources
-- **Technical Documentation**: Comprehensive CLAUDE.md for development guidance
 - **Code Examples**: Fully documented notebooks with detailed explanations
 - **Business Context**: Industry-specific insights and real-world applications
 - **Best Practices**: Production-ready code and methodologies
