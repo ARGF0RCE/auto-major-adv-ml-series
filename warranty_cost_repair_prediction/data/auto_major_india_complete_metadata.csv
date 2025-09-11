@@ -1,6 +1,6 @@
 column_name,data_type,units,description,actual_distribution,feature_importance,india_specific
 vehicle_id,object,text,Unique anonymized vehicle identifier,VEH_000001 to VEH_025000,Low,No
-make_model_code,object,category,VW vehicle model for Indian market,"Sedan(30.1%), Compact(24.8%), SUV(19.9%), Hatch(15.0%), Electric(10.1%)",High,No
+make_model_code,object,category,Auto Major vehicle model for Indian market,"Sedan(30.1%), Compact(24.8%), SUV(19.9%), Hatch(15.0%), Electric(10.1%)",High,No
 manufacturing_year,int64,year,Manufacturing year (2018-2024),2018-2024,Medium,No
 engine_type,object,category,Engine type including CNG for India,"Petrol(52.4%), Diesel(29.7%), Electric(10.1%), CNG(6.0%), Hybrid(1.8%)",High,Yes-CNG
 transmission_type,object,category,Transmission including AMT popular in India,"Manual(38.4%), Auto(33.3%), AMT(23.3%), CVT(5.1%)",Medium,Yes-AMT
