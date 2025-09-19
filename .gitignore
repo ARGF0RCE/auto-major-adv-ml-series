@@ -216,6 +216,7 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Misc
-**/data/*.py
+**/data/**/*.py
 **/misc/
 CLAUDE.md
+.aider*

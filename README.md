@@ -150,10 +150,28 @@ source .venv/bin/activate
 ```
 warranty_cost_repair_prediction/
    data/
-      *.csv                             # Generated datasets
+      clustering_and_anomaly_data/
+         abc_warranty_anomaly_data.csv   # Anomaly detection dataset
+         abc_warranty_clustering_data.csv # Clustering analysis dataset
+      sup_lr_data/
+         *.csv                           # Supervised learning datasets
    notebooks/
+      # Core ML Notebooks
       eda_and_data_preprocessing_notebook.ipynb    # Comprehensive EDA
-      xgb_sup_lr_warr_cost_pred.ipynb             # XGBoost models
+      xgb_sup_lr_warr_cost_pred.ipynb             # XGBoost supervised learning
+
+      # Advanced Analytics Notebooks
+      abc_anomaly_detection_notebook.ipynb        # Anomaly detection hands-on session
+      clustering_analysis_enhanced.ipynb          # Advanced clustering analysis
+      clustering_analysis_notebook.ipynb          # Basic clustering analysis
+
+      # Supporting Files
+      abc_anomaly_detection_notebook.pdf          # PDF export of anomaly notebook
+      clustering_analysis_notebook.pdf            # PDF export of clustering notebook
+      best_anomaly_detector.pkl                   # Trained anomaly detection model
+      feature_scaler.pkl                          # Feature scaling pipeline
+      clustering_results.csv                      # Clustering analysis results
+
 ```
 
 ### 🚀 Getting Started
@@ -183,8 +201,15 @@ warranty_cost_repair_prediction/
 - ✅ Added comprehensive business impact analysis
 - ✅ Created India-specific environmental factor modeling
 
+**Advanced Analytics - Recently Completed:**
+- ✅ Anomaly detection notebook with PyOD library implementation
+- ✅ Comprehensive anomaly vs outlier distinction analysis
+- ✅ Enhanced clustering analysis with multiple algorithms
+- ✅ Reorganized data structure with specialized subdirectories
+
 **Upcoming Development:**
-- 📋 Advanced ML algorithms implementation (LightGBM, anomaly detection)
+- 📋 XGBoost hyperparameter tuning with Hyperopt integration (WIP)
+- 📋 Advanced ML algorithms implementation (LightGBM integration)
 - 📋 MLOps pipeline design and cloud deployment preparation
 - 📋 NLP components for automotive text analysis
 - 📋 Computer vision modules for quality inspection
@@ -197,7 +222,9 @@ warranty_cost_repair_prediction/
 | Foundation | XGBoost regression model | ✅ Complete |
 | Foundation | XGBoost classification model | ✅ Complete |
 | Foundation | Business impact analysis | ✅ Complete |
-| Advanced ML | LightGBM implementation | ✅ Complete |
+| Advanced ML | Anomaly detection with PyOD | ✅ Complete |
+| Advanced ML | Clustering analysis | ✅ Complete |
+| Advanced ML | LightGBM implementation | 📋 Planned |
 | MLOps | Deployment pipeline | 📋 Planned |
 | NLP | Text analysis modules | 📋 Planned |
 | Vision | Quality inspection system | 📋 Planned |
