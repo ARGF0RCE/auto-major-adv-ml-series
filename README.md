@@ -164,14 +164,6 @@ warranty_cost_repair_prediction/
       abc_anomaly_detection_notebook.ipynb        # Anomaly detection hands-on session
       clustering_analysis_enhanced.ipynb          # Advanced clustering analysis
       clustering_analysis_notebook.ipynb          # Basic clustering analysis
-
-      # Supporting Files
-      abc_anomaly_detection_notebook.pdf          # PDF export of anomaly notebook
-      clustering_analysis_notebook.pdf            # PDF export of clustering notebook
-      best_anomaly_detector.pkl                   # Trained anomaly detection model
-      feature_scaler.pkl                          # Feature scaling pipeline
-      clustering_results.csv                      # Clustering analysis results
-
 ```
 
 ### 🚀 Getting Started
