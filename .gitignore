@@ -220,3 +220,6 @@ __marimo__/
 **/misc/
 CLAUDE.md
 .aider*
+
+# MlFlow Artifacts
+mlruns/
